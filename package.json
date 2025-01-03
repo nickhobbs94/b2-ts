@@ -9,10 +9,6 @@
     "repl": "node -r ts-node/register --experimental-modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benaubin/b2-js.git"
-  },
   "keywords": [
     "backblaze",
     "b2",
@@ -21,10 +17,6 @@
   ],
   "author": "Nicholas Hobbs",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benaubin/b2-js/issues"
-  },
-  "homepage": "https://b2-js.netlify.app/",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "tslib": "^2.0.0"
