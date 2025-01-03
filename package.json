@@ -1,8 +1,7 @@
 {
-  "name": "b2-js",
+  "name": "b2-ts",
   "version": "1.2.3",
   "description": "A powerful library for using Backblaze B2.",
-  "main": "dist/b2.js",
   "scripts": {
     "docs": "typedoc",
     "prepublish": "npm run build",
@@ -20,7 +19,7 @@
     "object",
     "storage"
   ],
-  "author": "Ben Aubin (benaubin.com)",
+  "author": "Nicholas Hobbs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/benaubin/b2-js/issues"
