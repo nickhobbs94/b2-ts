@@ -1,8 +1,8 @@
-import { createHash, Hash } from "crypto";
+import { createHash, Hash } from "node:crypto";
 import { Writable } from "stream";
-import uploadPart, { MultipartUploadUrl } from "./api-operations/upload-part";
+import uploadPart, { type MultipartUploadUrl } from "./api-operations/upload-part";
 import B2 from "./b2";
-import File, { FileData, FileUploadOptions } from "./file";
+import File, { type FileData, type FileUploadOptions } from "./file";
 import { Buffer } from "buffer";
 import { BackblazeLibraryError } from "./errors";
 

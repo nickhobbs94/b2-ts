@@ -1,6 +1,5 @@
 import BackblazeError from "../errors";
 import B2 from "../b2";
-import fetch from "node-fetch";
 
 export interface AuthorizeAccountSuccessResponse {
   /** The identifier for the account. */

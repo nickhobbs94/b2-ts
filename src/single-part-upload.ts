@@ -1,8 +1,7 @@
 import B2 from "./b2";
 import Bucket from "./bucket";
 import BackblazeServerError, { BackblazeLibraryError } from "./errors";
-import fetch from "node-fetch";
-import { FileData, FileUploadOptions } from "./file";
+import type { FileData, FileUploadOptions } from "./file";
 import AppendHashStream from "./append-hash-stream";
 
 interface SinglePartUploadUrlInfo {

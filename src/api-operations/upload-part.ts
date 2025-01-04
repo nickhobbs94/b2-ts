@@ -1,5 +1,4 @@
 import BackblazeServerError from "../errors";
-import fetch from "node-fetch";
 import B2 from '../b2';
 
 /** @internal */

@@ -1,11 +1,10 @@
-import fetch, { RequestInit, Response } from "node-fetch";
 import {
   authorize,
-  B2Credentials,
-  AuthorizeAccountSuccessResponse,
+  type B2Credentials,
+  type AuthorizeAccountSuccessResponse,
 } from "./api-operations/authorize-account";
-import BackblazeServerError, { BackblazeErrorResponse } from "./errors";
-import Bucket, { MinimumBucketInfo } from "./bucket";
+import BackblazeServerError, { type BackblazeErrorResponse } from "./errors";
+import Bucket, { type MinimumBucketInfo } from "./bucket";
 
 const { version } = require("../package.json") as { version: string };
 

@@ -1,32 +1,19 @@
 {
   "name": "b2-ts",
   "version": "1.2.3",
-  "description": "A powerful library for using Backblaze B2.",
-  "scripts": {
-    "docs": "typedoc",
-    "prepublish": "npm run build",
-    "build": "tsc -p .",
-    "repl": "node -r ts-node/register --experimental-modules",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Nicholas Hobbs",
+  "devDependencies": {
+    "@types/bun": "latest"
   },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "A powerful library for using Backblaze B2.",
   "keywords": [
     "backblaze",
     "b2",
     "object",
     "storage"
   ],
-  "author": "Nicholas Hobbs",
-  "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^2.6.0",
-    "tslib": "^2.0.0"
-  },
-  "devDependencies": {
-    "@types/form-data": "^2.5.0",
-    "@types/node": "^14.0.1",
-    "@types/node-fetch": "^2.5.7",
-    "ts-node": "^8.10.1",
-    "typedoc": "^0.17.6",
-    "typescript": "^3.9.2"
-  }
+  "license": "MIT"
 }
